@@ -13,25 +13,29 @@ It safely provides key details such as:
 
 ## Features
 
-• CIDR Parsing
+- CIDR Parsing
 Accepts network ranges like 192.168.1.0/24 or 10.0.0.0/16.
-• Network Class Detection
+- Network Class Detection
 Identifies Class A, B, C, D (multicast), or E (reserved).
-• Private vs Public Network Detection
+- Private vs Public Network Detection
 Determines whether the CIDR is RFC1918 private space or a public network.
-• Usable Host Range Calculation
+- Usable Host Range Calculation
 Displays just the first and last usable IP — clean and fast.
-• Loop Mode
+- Loop Mode
 You can analyze multiple CIDRs without restarting the script.
 
 ## Requirements
+
 Python 3.8+
 
 ## Usage
+
 Run the script:
+
 python3 CIDR_Range_Analyzer.py
 
 Enter a CIDR when prompted:
+
 Enter a CIDR (example: 10.0.0.0/24): 
 
 A sample output:
