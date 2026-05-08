@@ -39,21 +39,32 @@ Enter a CIDR when prompted:
 Enter a CIDR (example: 10.0.0.0/24): 
 
 A sample output:
+
 --- CIDR Information ---
+
 CIDR: 192.168.1.0/24
+
 Network Address: 192.168.1.0
+
 Broadcast Address: 192.168.1.255
+
 Total Hosts: 256
+
 Network Class: Class C
+
 Privacy Type: Private Network
 
+
 Usable IP Range:
+
 192.168.1.1 - 192.168.1.254
 ------------------------
 
 Afterwards, choose whether to analyze another CIDR:
+
 Check another CIDR? (y/n):
 
+<img width="303" height="220" alt="CIDR-to-IP" src="https://github.com/user-attachments/assets/4013017e-60b5-4d2c-9b9c-d27316b3fd76" />
 
 ## Intended Use
 
